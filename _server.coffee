@@ -97,7 +97,7 @@ else
   # development environment
   
   # Setup express server
-  app = express.createServer()
+  app = express()
   port = process.env.PORT || 3000
   app.use app.router
   app.use express.methodOverride()
