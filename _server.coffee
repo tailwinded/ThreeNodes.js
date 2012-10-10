@@ -95,7 +95,6 @@ if is_build
 
 else
   # development environment
-  
   # Setup express server
   app = express()
   port = process.env.PORT || 3000
