@@ -91,3 +91,5 @@ This will automatically compile coffescript files to javascript, sass to css and
 
 ## Howto create a simple scene
 First, create a webglrenderer node. Then add a scene and connect it to the "scene" of the webgl node. On the scene children you would connect a "merge" and to it a mesh. With that there should be a red cube showing in the renderer window.
+
+#Tailwinded submodule test
