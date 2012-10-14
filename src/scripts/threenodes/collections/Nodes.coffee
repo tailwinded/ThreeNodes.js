@@ -16,7 +16,8 @@ define [
   'order!threenodes/nodes/Spread',
   'order!threenodes/nodes/Particle',
   'order!threenodes/nodes/Group',
-  'order!threenodes/collections/Connections',
+  'order!threenodes/nodes/OSC',
+  'order!threenodes/collections/Connections'
 ], (_, Backbone, Indexer) ->
   "use strict"
   $ = jQuery

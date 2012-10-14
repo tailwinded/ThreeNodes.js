@@ -148,7 +148,7 @@ body,
 .node .outputs,
 .node .center,
 .node-Color .center {
-  display: inline;
+  display: inline !important;
   float: left;
 }
 html {
@@ -1385,7 +1385,7 @@ body > header h1 {
   cursor: text;
 }
 .ui-tabs .ui-tabs-hide {
-  display: none;
+  display: none !important;
 }
 #sidebar li.ui-tabs-selected {
   background: #eee;
@@ -1400,20 +1400,20 @@ body > header h1 {
 #sidebar input {
   padding: 4px 7px;
   width: 188px;
-  border: 1px solid #333;
+  border: 1px solid #333 ;
   background: #2a2a2a;
   -webkit-box-shadow: #222 0 1px 14px false inset;
   box-shadow: #222 0 1px 14px false inset;
 }
 #sidebar input:focus {
   outline: 0;
-  border: 1px solid #444;
+  border: 1px solid #444 ;
   -webkit-box-shadow: #222 0 1px 6px false inset;
   box-shadow: #222 0 1px 6px false inset;
   background: #222;
 }
 #sidebar input:hover {
-  border: 1px solid #3a3a3a;
+  border: 1px solid #3a3a3a ;
 }
 #sidebar .slider-container {
   position: relative;
